@@ -38,7 +38,7 @@ const fallbackRolesConfig = {
 
     VILLAGER: { id: "VILLAGER", name: "平民", faction: "好人阵营", wordSource: "good", hasNightAction: false, nightActionPrompt: "" },
 
-    SEER:     { id: "SEER", name: "预言家", faction: "好人阵营", wordSource: "good", hasNightAction: true, nightActionPrompt: "请 预言家 睁眼，选择一名玩家查验其身份。" },
+    SEER:     { id: "SEER", name: "预言家", faction: "好人阵营", wordSource: "good", hasNightAction: true, nightActionPrompt: "请 预言家 睁眼，选择一名玩家查验其词语。" },
 
     GUARD:    { id: "GUARD", name: "守卫", faction: "好人阵营", wordSource: "good", hasNightAction: true, nightActionPrompt: "请 守卫 睁眼，选择今晚要守护的一名玩家。" }
 
